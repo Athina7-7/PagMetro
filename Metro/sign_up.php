@@ -11,36 +11,33 @@
         <nav id="registroHeader">
             <img src="img/logo.png" alt="logo" id="ImgbannerRegistro">
             <ul>
-                <li><a href="sign_up.html">Registro</a></li>
-                <li><a href="login.html">Iniciar sesión</a></li>
+                <li><a href="sign_up.php">Registro</a></li>
+                <li><a href="login.php">Iniciar sesión</a></li>
             </ul>
         </nav>
     </header>
     <section  class="formulario">
         <h2>Registro</h2>
-        <form id="registroForm">
+        <form id="registroForm" action = "registrar.php" method="POST" >
             <label>Nombre:</label>
-            <input type="text" placeholder="Ingresa nombre" id="name" required autofocus>
+            <input type="text" name = "nombre" placeholder="Ingresa nombre" id="name" required autofocus>
             <br>
             <br>
             <label>Apellido:</label>
-            <input type="text" placeholder="Ingresa apellido" id="lastname" required>
+            <input type="text" name = "apellidos" placeholder="Ingresa apellido" id="lastname" required>
             <br>
             <br>
             <label>Usuario:</label>
-            <input type="email" placeholder="Ingresa correo" id="email" required>
+            <input type="email" name= "email" placeholder="Ingresa correo" id="email" required>
             <br>
             <br>
             <label>Contraseña:</label>
-            <input type="password" placeholder="Ingresa contraseña" id="password" required>
+            <input type="password" name = "contrasena" placeholder="Ingresa contraseña" id="password" required>
             <br>
+            
             <br>
-            <label>Género:</label>
-            <input type="text" placeholder="Ingresa genero" id="genero" required>
-            <br>
-            <br>
-            <input type="submit" value="Registro" class="enviar">
-            <div id="div_acceder"><p>¿Ya tienes cuenta? <a href="login.html">Login</a></p></div>
+            <input type="submit" name = "registrar" value="Registro" class="enviar">
+            <div id="div_acceder"><p>¿Ya tienes cuenta? <a href="login.php">Login</a></p></div>
         </form>
     </section>
 

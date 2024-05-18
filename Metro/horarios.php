@@ -1,10 +1,6 @@
 <?php
 include("menu.php");
 
-if(!isset($_SESSION['name'])){
-    header('location:login.php');
-}
-$name = $_SESSION['name'];
 ?>
 
     <section class="restoClase">

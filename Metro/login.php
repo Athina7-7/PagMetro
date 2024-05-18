@@ -11,14 +11,14 @@
         <nav id="registroHeader">
             <img src="img/logo.png" alt="logo" id="ImgbannerRegistro">
             <ul>
-                <li><a href="sign_up.html">Registro</a></li>
-                <li><a href="login.html">Iniciar sesión</a></li>
+                <li><a href="sign_up.php">Registro</a></li>
+                <li><a href="login.php">Iniciar sesión</a></li>
             </ul>
         </nav>
     </header>
     <section class="formulario">
         <h2>Login</h2>
-        <form action="enviar.php" method="POST" id="loginForm">
+        <form action="ingresar.php" method="POST" id="loginForm">
             <label>Usuario:</label>
             <input type="email" name = "usuario" placeholder="Ingresa correo" id="email" required autofocus>
             <br>
@@ -27,8 +27,8 @@
             <input type="password" name = "contrasena" placeholder="Ingresa contraseña" id="password" required>
             <br>
             <br>
-            <input type="submit" value="Ingresar" class="enviar">
-            <div id="div_registrate"><p>¿No tienes cuenta? <a href="sign_up.html">Regístrate</a></p></div>
+            <input name = "Ingresar" type="submit" value="Ingresar" class="enviar">
+            <div id="div_registrate"><p>¿No tienes cuenta? <a href="sign_up.php">Regístrate</a></p></div>
         </form>
 </section>
 
@@ -41,5 +41,6 @@
 </footer>
 
 <script src="js/login.js"></script>
+
 </body>
 </html>
