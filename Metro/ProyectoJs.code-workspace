@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../ProyectoJs"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ProyectoJs"
+	}
+}
