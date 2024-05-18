@@ -31,29 +31,12 @@ session_start();
                             <span class="text-white">Login</span>
                         </a>
                     </li>
+                    
                     <li class="nav-item">
-                        <a href="analisis.php" class="nav-link">
-                            <i class="fas fa-chart-bar"></i>
-                            <span class="text-white">Análisis</span>
-                        </a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="fas fa-users"></i>
-                            <span class="text-white">Usuarios</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="fas fa-cog"></i>
-                            <span class="text-white">Configuración</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="cerrarSesion.php" class="nav-link">
                             <i class="fas fa-right-from-bracket"></i>
                             <span class="text-white">Cerrar sesión</span>
                         </a>
-                    </li> -->
+                    </li> 
                 </ul>
             </nav>

@@ -30,21 +30,18 @@
                       <label class="form-label" for="name">Nombre:</label>
                       <input type="text" id="name" name="name" class="form-control" placeholder="Ingresa tu nombre"/>
                     </div>
-                    <!-- <div class="form-outline mb-4">
-                      <input type="password" id="password" name="password" class="form-control"/>
-                      <label class="form-label" for="password">Contraseña</label>
-                    </div> -->
                     <div class="text-center pt-1 mb-5 pb-1">
                       <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg azul mb-3" type="submit">Enviar</button>
-                      <!-- <a class="text-muted" href="#!">Olvidaste tu contraseña?</a> -->
+                     
                     </div>
                   </form>
                 </div>
               </div>
               <div class="col-lg-6 d-flex align-items-center gradient">
                 <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                  <h4 class="mb-4">Asistente de Sistemas</h4>
-                  <p class="small mb-0">El técnico laboral por competencias en Asistente de Sistemas podrá desempeñarse como desarrollador de software, programador de aplicaciones informáticas, técnico de sistemas y analistas de sistemas de información.</p>
+                  <h4 class="mb-4">Párchate Metro, te escuchamos</h4>
+                  <p class="small mb-0">
+¡Bienvenidos a la página de comentarios del metro! Aquí en nuestra plataforma, tu opinión es fundamental. Queremos escucharte, ya sea que tengas alguna queja, inconformidad o simplemente quieras compartir tu experiencia satisfactoria. Tu retroalimentación nos ayuda a mejorar y ofrecerte un servicio de transporte cada vez mejor. </p>
                 </div>
               </div>
             </div>
