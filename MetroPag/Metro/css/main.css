@@ -1,0 +1,159 @@
+@import url("home.css");
+@import url("all.css");
+@import url("registro&login.css");
+@import url("menu.css");
+
+
+
+/* Estilos generales para el diseño responsive */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Frutiger, 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #231D1F;
+}
+
+header nav ul, footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li, footer ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a, footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li:hover, footer ul li:hover {
+    background: #82BB27;
+}
+
+h1, h2, h4 {
+    color: #82BB27;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+section img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#sectionDerecha {
+    flex: 1;
+    min-width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.restoClase {
+    margin: 20px;
+    text-align: center;
+}
+
+.formulario {
+    background-color: #231D1F;
+    border-radius: 25px;
+    padding: 20px;
+    color: aliceblue;
+    margin: 20px;
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.enviar {
+    width: 100%;
+    height: 50px;
+    color: #231D1F;
+    background-color: #82BB27;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    nav ul {
+        display: block;
+    }
+    nav ul li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+}
+
+.notification-box {
+    width: 300px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #82BB27;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.notification-box.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
+
+.notification-box.success {
+    background-color: #82BB27;
+    color: white;
+    border-color: #c3e6cb;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
